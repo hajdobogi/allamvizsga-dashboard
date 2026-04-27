@@ -1,0 +1,26 @@
+chart_number,title,x_variable,y_variable,bubble_variable,color_variable,short_interpretation
+1,Oktatási közkiadások a GDP arányában,country,education_spending_gdp,,,Az országok oktatási ráfordítás szerinti rangsora a kiválasztott évben.
+2,GDP-növekedés és egy főre jutó GDP,country,gdp_growth; gdp_per_capita,,,Makrogazdasági háttér: növekedési dinamika és fejlettségi szint.
+3,Oktatási kiadás és egy főre jutó GDP,education_spending_gdp,gdp_per_capita,,,A ráfordítás és fejlettségi szint közötti keresztmetszeti kapcsolat.
+4,Oktatási kiadás és GDP-növekedés,education_spending_gdp,gdp_growth,,region,A ráfordítás és rövid távú növekedés kapcsolata régiós bontásban.
+5,Hatékonyság: kiadás és PISA-eredmény,education_spending_gdp,pisa_avg,,,Az oktatási input és minőségi output viszonya.
+6,Oktatási kiadás és PISA régiók szerint,education_spending_gdp,pisa_avg,,region,A régiós színezés segít elkülöníteni a mintázatokat.
+7,Oktatási kiadás és felsőfokú végzettség,education_spending_gdp,tertiary_attainment,,,A ráfordítás és humántőke-felhalmozás kapcsolata.
+8,Oktatási termelési függvény,education_spending_gdp,gdp_growth,pisa_avg,region,A buborékméret a PISA-eredményt mutatja.
+9,Fejlettségi szint és GDP-növekedés,gdp_per_capita,gdp_growth,education_spending_gdp,region,A fejlettebb gazdaságok gyakran lassabb rövid távú növekedést mutatnak; a buborékméret az oktatási kiadást jelzi.
+10,PISA és GDP-növekedés fejlettségi csoportok szerint,pisa_avg,gdp_growth,,development_group,"A fejlettségi csoportok megmutatják, hogy a teljes mintában látható negatív trend mögött összetételhatás állhat."
+11,Fejlettségi küszöb és növekedési dinamika,gdp_per_capita,gdp_growth,,pisa_group,A medián GDP/fő küszöb segít elkülöníteni a felzárkózó és fejlettebb országokat.
+12,PISA és GDP-növekedés fejlettségi panelekben,pisa_avg,gdp_growth,,development_group,A külön panelek hasonló fejlettségű országokon belül mutatják a PISA és növekedés kapcsolatát.
+13,PISA-tesztév és későbbi gazdasági eredmény,pisa_test_score,gdp_growth; gdp_per_capita,,region,"A PISA tesztév és a GDP év külön állítható, így a késleltetett kapcsolat közvetlenül vizsgálható."
+14,PISA-eredmény és GDP-növekedés,pisa_avg,gdp_growth,,,Az oktatási minőség és növekedés közötti kapcsolat.
+15,Késleltetett oktatási kiadás és GDP-növekedés,education_spending_lag3,gdp_growth,,,A három évvel korábbi ráfordítás és aktuális növekedés viszonya.
+16,Románia és EU-mintaátlag időbeli trendje,year,education_spending_gdp; gdp_growth,,country,Románia pályája az EU-minta átlagához viszonyítva.
+17,Küszöbhatás: növekedés kiadási tercilisek szerint,spending_group,gdp_growth,,,"A növekedési értékek eloszlása alacsony, közepes és magas kiadási csoportban."
+18,Térképes teljesítménykép,country,selected_indicator,,selected_indicator,A térkép a kiválasztott mutató országok közötti különbségeit mutatja a választott évben.
+19,"Országprofil: oktatás, innováció és gazdasági teljesítmény",profile_variables,normalizált érték,,country,A választott országokat hasonlítja az EU-minta átlagához 0–100-as normalizált skálán.
+20,Oktatási output és K+F-ráfordítás,pisa_avg,rd_expenditure,,,"Az X változó automatikusan kiválasztva: pisa_avg, mert erősebb kapcsolatot adott a K+F-ráfordítással."
+21,K+F-ráfordítás és GDP-növekedés,rd_expenditure,gdp_growth,,,A kutatás-fejlesztési intenzitás és növekedés viszonya.
+22,"Beruházási kontroll: oktatási minőség, növekedés és fizikai tőke",pisa_avg,gdp_growth,investment_rate,region,A növekedési különbségek részben a fizikai tőkefelhalmozás eltéréseit is tükrözhetik.
+23,"Készségek, K+F és növekedés",pisa_avg,gdp_growth,rd_expenditure,region,A buborékméret a K+F-ráfordítást mutatja.
+24,Egyenlőtlenségi kontextus,education_spending_gdp,gdp_growth,gini,region,Az X változó automatikusan kiválasztva: education_spending_gdp.
+25,"Végső összefoglaló: oktatási minőség, kiadás, egyenlőtlenség és növekedés",pisa_avg,gdp_growth,education_spending_gdp,gini,"Az X változó automatikusan kiválasztva: pisa_avg; a szín a Gini-indexet, a méret a kiadást jelzi."
